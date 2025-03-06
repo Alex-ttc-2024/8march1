@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Поздравление с 8 Марта от Транстелеком</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Sacramento&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, rgba(255, 85, 85, 0.7), rgba(255, 182, 193, 0.7), rgba(204, 153, 255, 0.7));
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 40px 0;
+            text-align: center;
+            color: #ff6f91;
+            border-bottom: 5px solid #ff9fba;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-family: 'Amatic SC', cursive;
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 1.2rem;
+            font-family: 'Sacramento', cursive;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            color: #ff6f91;
+        }
+        section {
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ff9fba;
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Sacramento', cursive;
+            font-size: 2.5rem;
+            color: #ff6f91;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .congratulations {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .poem {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #ff6f91;
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            animation: fadeIn 4s ease-in-out;
+            line-height: 1.8;
+        }
+        .party-info {
+            font-size: 1.2rem;
+            color: #555;
+            text-align: center;
+            margin-top: 30px;
+            background: linear-gradient(45deg, #ff6f91, #f9a8d4);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 4s ease-in-out;
+        }
+        .party-info span {
+            font-weight: bold;
+            color: white;
+        }
+        .party-info a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border: 2px solid #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background: #ff9fba;
+            margin-top: 20px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .party-info a:hover {
+            background: #f9a8d4;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: rgba(255, 170, 210, 0.8);
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+            border-top: 3px solid #f9a8d4;
+        }
+
+        /* Анимации */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .flower-icon {
+            font-size: 2rem;
+            color: #ff6f91;
+            margin-top: 10px;
+        }
+
+        /* Новый шрифт для названия бара */
+        .party-info h3 {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 2.2rem; /* Более крупный шрифт */
+            font-weight: 500;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center; /* Центровка текста */
+        }
+
+        /* Медиазапросы для мобильных устройств */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            section {
+                padding: 20px;
+                margin: 10px;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .congratulations {
+                font-size: 1rem;
+            }
+            .poem {
+                font-size: 1.2rem;
+                margin: 15px auto;
+            }
+            .party-info {
+                font-size: 1rem;
+                padding: 15px;
+            }
+            .party-info h3 {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Для очень маленьких экранов */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .poem {
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+            .party-info {
+                font-size: 0.9rem;
+                padding: 12px;
+            }
+            .party-info h3 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>С Международным Женским Днем!</h1>
+    <p>С любовью от Транстелеком</p>
+</header>
+
+<section>
+    <h2>Дорогие коллеги!</h2>
+    <p class="congratulations">
+        Мы рады поздравить вас с этим удивительным и важным праздником, который наполнен радостью и весной! Вы — 
+        источник вдохновения, энергии и красоты в нашем коллективе! Пусть этот день принесет вам только счастье, 
+        тепло и улыбки!
+    </p>
+
+    <div class="poem">
+        <p>Пусть в кошельке цветёт зарплата,</p>
+        <p>И будет в паспорте весна.</p>
+        <p>Пусть будет время на растраты,</p>
+        <p>На отдых, дом и сладость сна.</p>
+
+        <p>Любить работу, верить в чудо:</p>
+        <p>В прибавку, в принца, в шубный рай.</p>
+        <p>Пусть счастье каждую секунду</p>
+        <p>Кричит: «Впёрёд! Бери! Мечтай!»</p>
+    </div>
+
+    <div class="flower-icon">💐</div>
+
+    <p class="party-info">
+        <h3>Приглашаем вас на вечеринку в лаунж-бар <span>Why Not</span>!</h3>
+        <span>Адрес:</span> ул. Ерубаева 50а<br>
+        <span>Время:</span> Начало в 18:00.<br>
+        Приходите нарядными, красивыми и веселыми!<br>
+        <a href="https://www.google.com/maps?q=Ерубаева+50а" target="_blank">Посмотреть на карте</a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Транстелеком. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
